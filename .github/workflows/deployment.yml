@@ -21,7 +21,7 @@ jobs:
     # its own VM that's totally isolated from other machines and jobs 
     # Both jobs will run in parallel unless specified otherwise
     # to run sequentially, use 'needs' keyword
-    # needs: test # deploy job will wait for test job to finish ; uncomment to enable
+    needs: test # deploy job will wait for test job to finish ; uncomment to enable
     runs-on: ubuntu-latest
     steps:
         - name: Get code # dl code from repo
