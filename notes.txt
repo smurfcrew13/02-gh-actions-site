@@ -1,4 +1,0 @@
-1. originally used test.yml to upload and test actions
-
-2. Changed yml action file name
-2.1 changed name to deploy project
